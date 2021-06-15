@@ -8,8 +8,11 @@ module.exports = {
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'GnousEU', // Usually your GitHub org/user name.
-    projectName: 'Tuxbot', // Usually your repo name.
+    projectName: 'Tuxbot-wiki', // Usually your repo name.
     themeConfig: {
+        colorMode: {
+            defaultMode: 'dark',
+        },
         navbar: {
             title: 'Tuxbot Wiki',
             logo: {
@@ -18,16 +21,9 @@ module.exports = {
             },
             items: [
                 {
-                    type: 'doc',
-                    docId: 'intro',
-                    position: 'left',
-                    label: 'Tutorial',
-                },
-                {
-                    href: 'https://github.com/Rom1-J/Tuxbot-bot',
-                    label: 'GitHub',
-                    position: 'right',
-                },
+                    type: 'localeDropdown',
+                    position: 'right'
+                }
             ],
         },
         footer: {
@@ -43,32 +39,32 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: 'Useful',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
                             label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            href: 'http://127.0.0.1:3000/support',
                         },
                         {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
+                            label: 'Dashboard',
+                            href: 'http://127.0.0.1:3000/dashboard',
                         },
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Github',
                     items: [
                         {
-                            label: 'Blog',
-                            to: '/blog',
+                            label: 'Tuxbot',
+                            href: 'https://github.com/Romain-J/tuxbot-bot',
                         },
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            label: 'Website',
+                            href: 'https://github.com/Romain-J/tuxbot-web',
+                        },
+                        {
+                            label: 'Wiki',
+                            href: 'https://github.com/Romain-J/tuxbot-wiki',
                         },
                     ],
                 },
@@ -82,9 +78,8 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/edit/master/website/',
+                    routeBasePath: '/',
+                    editUrl: 'https://github.com/Rom1-J/tuxbot-wiki/edit/master/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -92,4 +87,16 @@ module.exports = {
             },
         ],
     ],
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en', 'fr'],
+        localeConfigs: {
+            en: {
+                label: 'English'
+            },
+            fr: {
+                label: 'Français'
+            }
+        }
+    }
 };
