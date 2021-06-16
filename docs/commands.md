@@ -16,58 +16,58 @@ sidebar_position: 2
 ## Custom
 ---
 
-- [custom](/wiki/Custom#custom)
+- [custom](Custom#custom)
 
 ## Dev
 ---
 
-- [http](/wiki/Dev#http)
+- [http](Dev#http)
 
 ## Linux
 ---
 
-- [cnf](/wiki/Linux#command-not-found)
+- [cnf](Linux#command-not-found)
 
 ## Math
 ---
 
-- [wolf](/wiki/Math#wolframalpha)
-- [latex](/wiki/Math#latex)
-- [graph](/wiki/Math#graph)
+- [wolf](Math#wolframalpha)
+- [latex](Math#latex)
+- [graph](Math#graph)
 
 
 ## Mod
 ---
 
-- [lang](/wiki/Mod#lang)
-- [rule](/wiki/Mod#rule)
-- [autoban](/wiki/Mod#autoban)
+- [lang](Mod#lang)
+- [rule](Mod#rule)
+- [autoban](Mod#autoban)
 
 ## Network
 ---
 
-- [iplocalise](/wiki/Network#ip-localise)
-- [cloudflare](/wiki/Network#cloudflare)
-- [getheaders](/wiki/Network#get-headers)
-- [ping](/wiki/Network#ping)
-- [isdown](/wiki/Network#is-down-)
-- [peeringdb](/wiki/Network#peeringdb)
+- [iplocalise](Network#ip-localise)
+- [cloudflare](Network#cloudflare)
+- [getheaders](Network#get-headers)
+- [ping](Network#ping)
+- [isdown](Network#is-down-)
+- [peeringdb](Network#peeringdb)
 
 ## Polls
 ---
 
-- [polls](/wiki/Polls#polls)
+- [polls](Polls#polls)
 
 ## Tags
 ---
 
-- [tag](/wiki/Tags#tag)
+- [tag](Tags#tag)
 
 ## Utils
 ---
 
-- [info](/wiki/Utils#info)
-- [credits](/wiki/Utils#credits)
-- [source](/wiki/Utils#source)
-- [quote](/wiki/Utils#quote)
-- [ui](/wiki/Utils#user-information)
+- [info](Utils#info)
+- [credits](Utils#credits)
+- [source](Utils#source)
+- [quote](Utils#quote)
+- [ui](Utils#user-information)
