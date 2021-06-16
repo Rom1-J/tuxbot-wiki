@@ -1,6 +1,7 @@
 ---
 id: commands
 title: Commands
+sidebar_position: 2
 ---
 
 :::info Note
@@ -14,69 +15,59 @@ title: Commands
 
 ## Custom
 ---
-- **`.custom`** - Main command to interact with custom settings.
-    - **Aliases:** `perso`
----
-- **`.custom locale`** - Set the language you want the bot to respond to.
-    - **Usage:** `.custom locale <custom_locale>`
-    - **Alias:** `langue`, `lang`
-    - **Required:** 
-        - **custom_locale:** The language you want to set (`en`, `fr`)
----
-- **`.custom alias`** - Define an alias for which the bot will assign a command.
-    - **Usage:** `.custom alias <command> | <custom_alias>`
-    - **Aliases:** `aliases`
-    - **Required:** 
-        - **command:** The name of the command you want to replace (can be a subcommand with args).
-        - **custom_alias:** The name of the command you want to replace (can be a subcommand with args).
+
+- [custom](/wiki/Custom#custom)
 
 ## Dev
 ---
-- **`.http`** - Shows information about an HTTP code.
-    - **Usage:** `.http <http_code>`
-    - **Required:** 
-        - **http_code:** The HTTP code for which you want information.
+
+- [http](/wiki/Dev#http)
 
 ## Linux
 ---
-- **`.cnf`** - Shows the name of the package to install when a command is not found.
-    - **Usage:** `.cnf <command>`
-    - **Required:** 
-        - **command:** The command you want to use.
-    - **Example:**
-        ![example](/img/docs/commands/Linux/cnf/example.png)
-        
-:::info Note
-This command use a scrapper to retrieve information from [https://command-not-found.com/](https://command-not-found.com/)
 
-Please note that the owner of the site has been informed and has given his opinion on this use.
-:::
+- [cnf](/wiki/Linux#command-not-found)
 
 ## Math
 ---
-- **`.wolf`** - Evaluate content in [WolframAlpha](https://wolframalpha.com).
-    - **Usage:** `.wolf <query>`
-    - **Aliases:** `wolfram`
-    - **Required:** 
-        - **query:** The content you want to eval.
-    - **Example:**
-        ![example](/img/docs/commands/Math/wolf/example.png)
-      
-:::info Note
-Due to WolframAlpha rate limit on its API, this command has a cooldown of 1 execution every 10sec per user
-:::  
+
+- [wolf](/wiki/Math#wolframalpha)
+- [latex](/wiki/Math#latex)
+- [graph](/wiki/Math#graph)
+
+
+## Mod
 ---
-- **`.latex`** - Render a LaTeX expression.
-    - **Usage:** `.latex <latex>`
-    - **Aliases:** `tex`
-    - **Required:** 
-        - **latex:** The LaTeX you want to render.
-    - **Example:**
-        ![example](/img/docs/commands/Math/latex/example.png)
+
+- [lang](/wiki/Mod#lang)
+- [rule](/wiki/Mod#rule)
+- [autoban](/wiki/Mod#autoban)
+
+## Network
 ---
-- **`.graph`** - Decomposes an expression into a graph.
-    - **Usage:** `.graph <expr>`
-    - **Required:** 
-        - **expr:** The expression to decompose.
-    - **Example:**
-        ![example](/img/docs/commands/Math/graph/example.png)
+
+- [iplocalise](/wiki/Network#ip-localise)
+- [cloudflare](/wiki/Network#cloudflare)
+- [getheaders](/wiki/Network#get-headers)
+- [ping](/wiki/Network#ping)
+- [isdown](/wiki/Network#is-down-)
+- [peeringdb](/wiki/Network#peeringdb)
+
+## Polls
+---
+
+- [polls](/wiki/Polls#polls)
+
+## Tags
+---
+
+- [tag](/wiki/Tags#tag)
+
+## Utils
+---
+
+- [info](/wiki/Utils#info)
+- [credits](/wiki/Utils#credits)
+- [source](/wiki/Utils#source)
+- [quote](/wiki/Utils#quote)
+- [ui](/wiki/Utils#user-information)

@@ -15,10 +15,6 @@ module.exports = {
         },
         navbar: {
             title: 'Tuxbot Wiki',
-            logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
-            },
             items: [
                 {
                     type: 'localeDropdown',
