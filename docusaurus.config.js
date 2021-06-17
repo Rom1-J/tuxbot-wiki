@@ -34,7 +34,7 @@ module.exports = {
                         },
                         {
                             label: 'Website',
-                            href: 'http://127.0.0.1:3000/',
+                            href: 'https://tuxbot.gnous.eu/',
                         },
                     ],
                 },
@@ -43,11 +43,11 @@ module.exports = {
                     items: [
                         {
                             label: 'Discord',
-                            href: 'http://127.0.0.1:3000/support',
+                            href: 'https://tuxbot.gnous.eu/support',
                         },
                         {
                             label: 'Dashboard',
-                            href: 'http://127.0.0.1:3000/dashboard',
+                            href: 'https://tuxbot.gnous.eu/dashboard',
                         },
                     ],
                 },
