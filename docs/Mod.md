@@ -45,10 +45,10 @@ Some commands may need the following permissions:
     - **Alias:** `show`, `all`
 ---
 - **`.rule add`** - Adds a rule.
-    - **Usage:** `.rule add <rule_id>`
+    - **Usage:** `.rule add <rule>`
     - **Permissions:** `Administrator` 
     - **Required:** 
-        - **rule_id:** The rule you want to define (string).
+        - **rule:** The content of the rule you want to define (string).
 ---
 - **`.rule edit`** - Edits a rule.
     - **Usage:** `.rule edit <rule_id> <rule>`
@@ -58,23 +58,25 @@ Some commands may need the following permissions:
         - **rule:** The new content for this rule (string).
 ---
 - **`.rule delete`** - Deletes a rule.
-    - **Usage:** `.rule delete <rule_id> <rule>`
+    - **Usage:** `.rule delete <rule_id>`
     - **Permissions:** `Administrator` 
     - **Required:** 
-        - **rule_id:** The rule id you want to edit (int).
-        - **rule:** The new content for this rule (string).
+        - **rule_id:** The rule id you want to delete (int).
 ---
 - **`.rule update`** - Updates the message rules.
     - **Usage:** `.rule update <message_id>`
     - **Permissions:** `Administrator` 
     - **Required:** 
         - **message_id:** The message you want to edit.
+
 ---
+
+## Mute
 - **`.mute`** - Main command to interact mutes.
     - **Usage:** `.mute <member> [reason]`
     - **Permissions:** `Administrator` 
     - **Required:** 
-        - **members:** The numbers you want to mute.
+        - **members:** The members you want to mute.
     - **Optional:** 
         - **reason:** The reason for this mute.
 ---

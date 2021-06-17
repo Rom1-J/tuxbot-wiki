@@ -26,11 +26,15 @@ module.exports = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: 'Links',
                     items: [
                         {
-                            label: 'Tutorial',
+                            label: 'Wiki',
                             to: '/commands',
+                        },
+                        {
+                            label: 'Website',
+                            href: 'http://127.0.0.1:3000/',
                         },
                     ],
                 },

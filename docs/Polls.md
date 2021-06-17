@@ -11,7 +11,7 @@ title: Commands related to the Polls module
 - **`.polls`** - Main command to interact with polls.
     - **Aliases:** `poll`, `sondages`, `sondage`
 ---
-- **`.polls create`** - Set the language you want the bot to respond to.
+- **`.polls create`** - Creates a poll.
     - **Usage:** `.polls create <question> | <answer A> | <answer B> | ...`
     - **Alias:** `new`, `nouveau`
     - **Required:** 

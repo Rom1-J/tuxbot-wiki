@@ -4,7 +4,7 @@
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Useful": {
-    "message": "Useful",
+    "message": "Utile",
     "description": "The title of the footer links column with title=Useful in the footer"
   },
   "link.title.Github": {
@@ -20,7 +20,7 @@
     "description": "The label of footer link with label=Discord linking to http://127.0.0.1:3000/support"
   },
   "link.item.label.Dashboard": {
-    "message": "Dashboard",
+    "message": "Tableau de bord",
     "description": "The label of footer link with label=Dashboard linking to http://127.0.0.1:3000/dashboard"
   },
   "link.item.label.Tuxbot": {
@@ -28,7 +28,7 @@
     "description": "The label of footer link with label=Tuxbot linking to https://github.com/Romain-J/tuxbot-bot"
   },
   "link.item.label.Website": {
-    "message": "Website",
+    "message": "Site web",
     "description": "The label of footer link with label=Website linking to https://github.com/Romain-J/tuxbot-web"
   },
   "link.item.label.Wiki": {
@@ -36,7 +36,11 @@
     "description": "The label of footer link with label=Wiki linking to https://github.com/Romain-J/tuxbot-wiki"
   },
   "copyright": {
-    "message": "© 2021 GnousEU | Built with Docusaurus.",
+    "message": "© 2021 GnousEU | Fait avec Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.title.Links": {
+    "message": "Liens",
+    "description": "The title of the footer links column with title=Links in the footer"
   }
 }

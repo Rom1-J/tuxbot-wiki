@@ -41,6 +41,7 @@ sidebar_position: 2
 
 - [lang](Mod#lang)
 - [rule](Mod#rule)
+- [mute](Mod#mute)
 - [autoban](Mod#autoban)
 
 ## Network
@@ -68,6 +69,7 @@ sidebar_position: 2
 
 - [info](Utils#info)
 - [credits](Utils#credits)
+- [invite](Utils#invite)
 - [source](Utils#source)
 - [quote](Utils#quote)
 - [ui](Utils#user-information)

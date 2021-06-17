@@ -28,7 +28,7 @@ title: Commands related to the Utils module
 ---
 
 ## Source
-- **`.source`** - Gives links to invite Tuxbot.
+- **`.source`** - Gives links to the sources of Tuxbot.
     - **Usage:** `.source [command]`
     - **Optional:**
       - **command:** The command whose sources you want.
@@ -44,7 +44,7 @@ title: Commands related to the Utils module
 ---
 
 ## User Information
-- **`.ui`** - Shows information about giver users.
+- **`.ui`** - Shows information about given users.
     - **Usage:** `.ui <users>`
     - **Aliases:** `user_info`, `userinfo`
     - **Required:**

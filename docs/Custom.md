@@ -13,7 +13,7 @@ title: Commands related to the Custom module
 ---
 - **`.custom locale`** - Set the language you want the bot to respond to.
     - **Usage:** `.custom locale <custom_locale>`
-    - **Alias:** `langue`, `lang`
+    - **Aliases:** `langue`, `lang`
     - **Required:** 
         - **custom_locale:** The language you want to set (`en`, `fr`)
 ---
@@ -22,4 +22,4 @@ title: Commands related to the Custom module
     - **Aliases:** `aliases`
     - **Required:** 
         - **command:** The name of the command you want to replace (can be a subcommand with args).
-        - **custom_alias:** The name of the command you want to replace (can be a subcommand with args).
+        - **custom_alias:** Le nom de l'alias que vous voulez utiliser.

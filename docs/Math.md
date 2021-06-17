@@ -17,7 +17,7 @@ title: Commands related to the Math module
         ![example](/img/docs/commands/Math/wolf/example.png)
       
 :::info Note
-Due to WolframAlpha rate limit on its API, this command has a cooldown of 1 execution every 10sec per user
+Due to WolframAlpha rate limit on its API, this command has a cooldown of 1 execution every 10sec per user.
 :::  
     
 ---

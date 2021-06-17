@@ -18,7 +18,7 @@ title: Commands related to the Tags module
     - **Required:** 
         - **tag_name:** The tag you want to delete.
 ---
-- **`.tag create`** - Creates a taf.
+- **`.tag create`** - Creates a tag.
     - **Usage:** `.tag create <tag_name> <content>`
     - **Alias:** `add`
     - **Required:** 
