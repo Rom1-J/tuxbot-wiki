@@ -69,7 +69,7 @@ Please note that the validity of the information provided is not verified.
 
 ## PeeringDB
 - **`.peeringdb`** - Shows information about given ASN.
-    - **Usage:** `.getheaders <asn>`
+    - **Usage:** `.peeringdb <asn>`
     - **Aliases:** `peer`, `peering`
     - **Required:** 
         - **asn:** The ASN for which you want information.
