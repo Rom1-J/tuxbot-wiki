@@ -56,15 +56,15 @@ module.exports = {
                     items: [
                         {
                             label: 'Tuxbot',
-                            href: 'https://github.com/Romain-J/tuxbot-bot',
+                            href: 'https://github.com/Rom1-J/tuxbot-bot',
                         },
                         {
                             label: 'Website',
-                            href: 'https://github.com/Romain-J/tuxbot-web',
+                            href: 'https://github.com/Rom1-J/tuxbot-web',
                         },
                         {
                             label: 'Wiki',
-                            href: 'https://github.com/Romain-J/tuxbot-wiki',
+                            href: 'https://github.com/Rom1-J/tuxbot-wiki',
                         },
                     ],
                 },
