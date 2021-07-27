@@ -69,7 +69,7 @@ Veuillez noter que la validité des informations fournies n'est pas vérifiée.
 
 ## PeeringDB
 - **`.peeringdb`** - Affiche des informations sur l'ASN donné.
-    - **Utilisation:** `.getheaders <asn>`
+    - **Utilisation:** `.peeringdb <asn>`
     - **Alias:** `peer`, `peering`
     - **Requis:** 
         - **asn:** L'ASN pour lequel vous souhaitez obtenir des informations.
